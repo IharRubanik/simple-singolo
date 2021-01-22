@@ -1,1 +1,1 @@
-# simple-singolo
+https://iharrubanik.github.io/simple-singolo/
