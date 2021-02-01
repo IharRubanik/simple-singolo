@@ -88,13 +88,29 @@
   height: 594px;
   background: #f06c64;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 10% 30% 60% 10%;
+}
+  .slider__buttom_left{
+margin-top: 283px;
+margin-left: 40px;
+  }
+  .slider__buttom_left:hover{
+      cursor: pointer;
+  }
+
+  .slider__buttom_right:hover{
+    cursor: pointer;
+  }
+.slider__buttom_right{
+  margin-top: 283px;
+  margin-right: 40px;
+  text-align: right;
 }
 .phone1__container {
   width: auto;
   height: auto;
   margin-top: 54px;
-  margin-left: 111.5px;
+  margin-left: 71.5px;
 }
 .phone1__container .phone {
   box-shadow: 25px 25px 0px 0px rgba(77, 56, 56, 0.3);
@@ -181,10 +197,11 @@
   transform: rotate(90deg);
   width: auto;
   height: auto;
-  position: relative;
-  right: 186px;
-  top: 131px;
+  text-align: left;
+  padding-top: 97px;
+  padding-left: 183px;
 }
+
 .phone2__container .phone {
   box-shadow: 25px -25px 0px 0px rgba(77, 56, 56, 0.3);
 }
