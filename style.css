@@ -1,24 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-body {
-}
 .wrapper {
   width: auto;
   height: auto;
- font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
+  padding: 0%;
 }
 .container__header {
   width: auto;
-  height: 89px;
+  height: min-content;
   background-color: #2d303a;
 }
 .header {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1020px;
   height: 89px;
+  background-color: #2d303a;
   display: flex;
   flex-direction: row;
 }
@@ -73,9 +70,11 @@ body {
 }
 
 .border__header {
+  min-width: 1020px;
   width: auto;
   height: 6px;
   background: #323746;
+  margin-left: 0%;
 }
 
 .slider__container {
@@ -189,6 +188,12 @@ body {
 .phone2__container .phone {
   box-shadow: 25px -25px 0px 0px rgba(77, 56, 56, 0.3);
 }
+.border_slider {
+  height: 6px;
+  width: auto;
+  min-width: 1020px;
+  background-color: #ea676b;
+}
 
 .our__services_contaner {
   width: auto;
@@ -196,7 +201,6 @@ body {
   background-color: #f2f2f2;
 }
 .our__services {
- 
   width: 1020px;
   height: 494px;
   background-color: #f2f2f2;
@@ -204,16 +208,19 @@ body {
   margin-right: auto;
 }
 .name__content {
-  padding-top: 59px;
+  padding-top: 48px;
   margin-left: 40px;
   font-weight: 900;
   font-size: 30px;
   line-height: 36px;
   color: #666d89;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 .text__content {
-  padding-top: 20px;
+  padding-top: 0px;
   margin-left: 40px;
+  margin-right: 40px;
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
@@ -223,50 +230,62 @@ body {
   margin-top: 34px;
   margin-left: 40px;
   margin-right: 40px;
-  width: 1020px;
+  width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #767e9e;
   grid-column-gap: 21px;
-  grid-row-gap: 84px;
+  grid-row-gap: 11px;
+}
+.menu__content h1 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 18px;
+  text-align: left;
+}
+.menu__content p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: justified;
 }
 .custom__desing {
   display: grid;
-  grid-template-columns: 30% 80%;
-  height: 77px;
-  width: 220.00001525878906px;
+  grid-template-columns: 22% 78%;
+  height: auto;
+  width: auto;
 }
 
 .inovative__ideas {
   display: grid;
-  grid-template-columns: 30% 80%;
-  height: 77px;
-  width: 220.00001525878906px;
+  grid-template-columns: 22% 78%;
+  height: auto;
+  width: auto;
 }
 
 .love__is__the_answer {
   display: grid;
-  grid-template-columns: 30% 80%;
-  height: 77px;
-  width: 220.00001525878906px;
+  grid-template-columns: 22% 78%;
+  height: auto;
+  width: auto;
 }
 .responsive__layout {
   display: grid;
-  grid-template-columns: 30% 80%;
-  height: 77px;
-  width: 220.00001525878906px;
+  grid-template-columns: 22% 78%;
+  height: auto;
+  width: auto;
 }
 .support {
   display: grid;
-  grid-template-columns: 30% 80%;
-  height: 77px;
-  width: 220.00001525878906px;
+  grid-template-columns: 22% 78%;
+  height: auto;
+  width: auto;
 }
 .like {
   display: grid;
-  grid-template-columns: 30% 80%;
-  height: 77px;
-  width: 220.00001525878906px;
+  grid-template-columns: 22% 78%;
+  height: auto;
+  width: auto;
 }
 .rim {
   height: 60.000057220458984px;
@@ -285,19 +304,27 @@ body {
 .other_text {
   margin-left: 14px;
   margin-right: -96px;
+  width: auto;
+  max-width: 100%;
 }
 .menu__content h3 {
   font-size: 18px;
   font-weight: 900;
   line-height: 18px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
   cursor: pointer;
 }
-
+.bordrer__our__services {
+  background: #ffffff;
+  min-width: 1020px;
+  width: auto;
+  height: 6px;
+}
 .portfolio__container {
   width: auto;
   height: 864px;
   background: #2d303a;
+  margin-top: 6px;
 }
 
 .portfolio {
@@ -315,6 +342,8 @@ body {
   padding-top: 59px;
   margin-left: 40px;
   color: #666d89;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 .portfolio p {
   font-weight: 300;
@@ -339,7 +368,6 @@ body {
   color: #767e9e;
   padding: 5px;
   margin-right: 8px;
-  cursor: ;
 }
 .button__container button:hover {
   cursor: pointer;
@@ -354,9 +382,10 @@ body {
   grid-row-gap: 23px;
 }
 .portfolio__border {
-  width: auto;
   height: 6px;
   background: #323746;
+  min-width: 1020px;
+  width: auto;
 }
 .footer {
   width: auto;
@@ -380,14 +409,14 @@ body {
   text-align: left;
   color: #666d89;
   padding-left: 40px;
-  padding-top: 29px;
+  margin-top: 30px;
 }
 .circle__icon__container {
   display: flex;
   align-items: flex-end;
   padding-bottom: 23px;
   margin-left: auto;
-  margin-right: 22px;
+  margin-right: 21px;
 }
 .circle__icon {
   border-radius: 50%;
