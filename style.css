@@ -88,29 +88,33 @@
   height: 594px;
   background: #f06c64;
   display: grid;
-  grid-template-columns: 10% 30% 60% 10%;
+  grid-template-columns: 10% 30% 50% 10%;
 }
-  .slider__buttom_left{
-margin-top: 283px;
-margin-left: 40px;
-  }
-  .slider__buttom_left:hover{
-      cursor: pointer;
-  }
 
-  .slider__buttom_right:hover{
-    cursor: pointer;
-  }
-.slider__buttom_right{
+.slider__button_left {
+  margin-top: 283px;
+  margin-left: 40px;
+}
+
+.slider__button_left:hover {
+  cursor: pointer;
+}
+
+.slider__button_right {
   margin-top: 283px;
   margin-right: 40px;
   text-align: right;
 }
+
+.slider__button_right:hover {
+  cursor: pointer;
+}
+
 .phone1__container {
   width: auto;
   height: auto;
   margin-top: 54px;
-  margin-left: 71.5px;
+  margin-left: 10px;
 }
 .phone1__container .phone {
   box-shadow: 25px 25px 0px 0px rgba(77, 56, 56, 0.3);
@@ -195,11 +199,11 @@ margin-left: 40px;
 
 .phone2__container {
   transform: rotate(90deg);
-  width: auto;
-  height: auto;
-  text-align: left;
-  padding-top: 97px;
-  padding-left: 183px;
+        width: auto;
+        height: auto;
+        text-align: right;
+        padding-top: 96px;
+        padding-left: 146px;
 }
 
 .phone2__container .phone {
