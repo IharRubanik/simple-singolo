@@ -68,6 +68,9 @@
   color: #f06c64;
   cursor: pointer;
 }
+.menu_mobile{
+  display: none;
+}
 
 .border__header {
   min-width: 1020px;

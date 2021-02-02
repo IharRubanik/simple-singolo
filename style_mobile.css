@@ -8,8 +8,44 @@
     margin: auto;
     width: 375px;
     height: 71px;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .menu_mobile{
+    display: block;
+    width: min-content;
+    height: min-content;
+  }
+  .menu_mobile:hover{
+    cursor: pointer;
+     }
+
+
+  .stripes1{
+    width: 25px;
+    height: 2.4px;
+    background: #F2F2F2;
+    border-radius: 5px;
+   margin-left: 21px;
+    margin-top: 26px;
+  }
+
+  .stripes2{
+    width: 25px;
+    height: 2.4px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    margin-left: 21px;
+    margin-top: 6.4px;
+  }
+
+  .stripes3{
+    width: 25px;
+    height: 2.4px;
+    background: #F2F2F2;
+    border-radius: 5px;
+    margin-left: 21px;
+    margin-top: 6.4px;
   }
 
   .header__name {
@@ -19,10 +55,8 @@
     font-weight: bold;
     line-height: 23.63px;
     color: #ffffff;
-    margin-left: 40px;
-    margin-top: 29px;
-    margin-bottom: 35px;
-    margin-right: auto;
+    margin-top: 24px;
+    margin-left: -39.5px;
   }
 
   .headr__name_star {
@@ -31,7 +65,9 @@
     font-weight: bold;
     line-height: 23.63px;
   }
-
+..menu_mobile{
+  display: none;
+}
   .header__nav {
     display: none;
   }
