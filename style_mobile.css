@@ -11,43 +11,87 @@
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  .menu_mobile{
+  .menu_mobile {
     display: block;
+  }
+
+  .main_menu {
     width: min-content;
     height: min-content;
   }
-  .menu_mobile:hover{
-    cursor: pointer;
-     }
-
-
-  .stripes1{
+  .stripes1 {
     width: 25px;
     height: 2.4px;
-    background: #F2F2F2;
+    background: #f2f2f2;
     border-radius: 5px;
-   margin-left: 21px;
+    margin-left: 21px;
     margin-top: 26px;
   }
 
-  .stripes2{
+  .stripes2 {
     width: 25px;
     height: 2.4px;
-    background: #F2F2F2;
+    background: #f2f2f2;
     border-radius: 5px;
     margin-left: 21px;
     margin-top: 6.4px;
   }
 
-  .stripes3{
+  .stripes3 {
     width: 25px;
     height: 2.4px;
-    background: #F2F2F2;
+    background: #f2f2f2;
     border-radius: 5px;
     margin-left: 21px;
     margin-top: 6.4px;
   }
 
+  .menu_mobile_tabs {
+    display: block;
+    list-style: none;
+    margin-top: 0px;
+    padding-left: 0px;
+    z-index: 1;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    background: #2d303a;
+  }
+  .menu_mobile_tabs:hover {
+    width: 278px;
+    height: 812px;
+  }
+  .name_mobile {
+    width: 92px;
+    height: 24px;
+    font-size: 19.69px;
+    font-weight: bold;
+    line-height: 23.63px;
+    color: #ffffff;
+    margin-top: -21px;
+    margin-left: 71.5px;
+  }
+
+  .menu_mobile_tabs li {
+    display: block;
+    width: 205px;
+    height: 31px;
+    margin-bottom: 27px;
+    margin-left: 71px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .home {
+    margin-top: 164px;
+  }
+  .menu_mobile_tabs li:hover {
+    cursor: pointer;
+    color: #f06c64;
+  }
   .header__name {
     width: 92px;
     height: 24px;
@@ -65,9 +109,6 @@
     font-weight: bold;
     line-height: 23.63px;
   }
-..menu_mobile{
-  display: none;
-}
   .header__nav {
     display: none;
   }
@@ -100,21 +141,20 @@
     margin-top: 98px;
     margin-left: 10px;
   }
-  .slider__button_left img{
+  .slider__button_left img {
     width: 14.08px;
     height: 24.9px;
-
   }
   .slider__button_left:hover {
     cursor: pointer;
   }
-  
+
   .slider__button_right {
     margin-top: 98px;
     margin-right: 10px;
     text-align: right;
   }
-  .slider__button_right img{
+  .slider__button_right img {
     width: 14.08px;
     height: 24.9px;
   }
@@ -216,7 +256,7 @@
     width: auto;
     height: auto;
     padding-top: 37.41px;
-    padding-left: 58px
+    padding-left: 58px;
   }
   .phone2__container .phone {
     box-shadow: 10px -10px 0px 0px rgba(77, 56, 56, 0.3);

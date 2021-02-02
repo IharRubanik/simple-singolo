@@ -62,6 +62,9 @@
   .menu_mobile{
     display: none;
   }
+  .menu_mobile_tabs{
+    display: none;
+  }
 
   .border__header {
     min-width: 768px;
