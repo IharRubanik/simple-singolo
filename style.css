@@ -1,3 +1,12 @@
+a{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #ea676b;
+}
 .wrapper {
   width: auto;
   height: auto;
@@ -19,7 +28,6 @@
   display: flex;
   flex-direction: row;
 }
-
 .header__name {
   width: 124px;
   height: 25px;
@@ -32,7 +40,6 @@
   margin-bottom: 35px;
   margin-right: auto;
 }
-
 .headr__name_star {
   color: #f06c64;
   font-size: 25px;
@@ -40,7 +47,6 @@
   font-weight: bold;
   line-height: 30px;
 }
-
 .header__nav {
   width: 438px;
   display: grid;
@@ -56,7 +62,6 @@
   line-height: 14px;
   font-weight: 700;
 }
-
 .header__nav div {
   margin-right: 16px;
   font-weight: bold;
@@ -74,7 +79,6 @@
 .menu_mobile_tabs{
   display: none;
 }
-
 .border__header {
   min-width: 1020px;
   width: auto;
@@ -83,44 +87,15 @@
   margin-left: 0%;
 }
 
-.slider__container {
-  width: auto;
-  height: 594px;
-  background-color: #f06c64;
-}
-.slider {
-  margin: auto;
-  width: 1020px;
-  height: 594px;
-  background: #f06c64;
-  display: grid;
-  grid-template-columns: 10% 30% 50% 10%;
-}
 
-.slider__button_left {
-  margin-top: 283px;
-  margin-left: 40px;
-}
-
-.slider__button_left:hover {
-  cursor: pointer;
-}
-
-.slider__button_right {
-  margin-top: 283px;
-  margin-right: 40px;
-  text-align: right;
-}
-
-.slider__button_right:hover {
-  cursor: pointer;
-}
+/* .slider__button_left */
 
 .phone1__container {
+  position: absolute;
   width: auto;
   height: auto;
-  margin-top: 54px;
-  margin-left: 10px;
+  top: 54px;
+  left: 111px;
 }
 .phone1__container .phone {
   box-shadow: 25px 25px 0px 0px rgba(77, 56, 56, 0.3);
@@ -132,7 +107,6 @@
   border-radius: 21px;
   background: #f2f2f2;
 }
-
 .phone__camera {
   height: 8.876001358032227px;
   width: 8.875999450683594px;
@@ -202,26 +176,26 @@
   border-style: solid;
   border-color: #bababa;
 }
-
 .phone2__container {
   transform: rotate(90deg);
+  position: absolute;
         width: auto;
         height: auto;
-        text-align: right;
-        padding-top: 96px;
-        padding-left: 146px;
+top: 176px;
+right: 137px;
 }
-
 .phone2__container .phone {
   box-shadow: 25px -25px 0px 0px rgba(77, 56, 56, 0.3);
 }
+
+
+
 .border_slider {
   height: 6px;
   width: auto;
   min-width: 1020px;
   background-color: #ea676b;
 }
-
 .our__services_contaner {
   width: auto;
   height: 494px;
@@ -463,4 +437,63 @@
   cursor: pointer;
   color: #dedede;
   border: 1px solid #dedede;
+}
+.slider__corousel{
+  position: relative;;
+}
+
+.slider__container {
+  width: auto;
+  height: 594px;
+  background-color: #f06c64;
+  opacity: 1;
+  transition: 0.5s;
+  
+}
+.slider {
+  margin: auto;
+  width: 1020px;
+  height: 594px;
+  background: #f06c64;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: relative;
+}
+
+.none{
+  transition: 0.5s;
+  opacity: 0;
+}
+.active{
+  transform: 0.5;
+  opacity: 1;
+}
+.button{
+  width: 1024px;
+  position: relative;
+  height: min-content;
+  top: -341px;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+#btn_left {
+  position: relative;
+ left: 40px;
+ top: 17px;
+ z-index: 1;
+}
+#btn_left:hover {
+  cursor: pointer;
+ 
+}
+#btn_right{
+position: relative;
+top: -14px;
+right: -972px;
+z-index: 1;
+}
+
+#btn_right:hover {
+  cursor: pointer;
 }

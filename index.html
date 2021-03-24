@@ -6,7 +6,9 @@
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style_tablet.css " />
+    <link rel="stylesheet" href="style_tablet2.css " />
     <link rel="stylesheet" href="style_mobile.css" />
+    <link rel="stylesheet" href="style2.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
@@ -16,17 +18,19 @@
 
   <body>
     <div class="wrapper">
-      <div class="container__header">
+      <div id="home" class="container__header">
         <div class="header">
           <div class="menu_mobile">
             <ul class="menu_mobile_tabs">
               <div class="three_stripes">
                 <div class="main_menu">
-                <div class="stripes1"></div>
-                <div class="stripes2"></div>
-                <div class="stripes3"></div>
-              </div>
-                <div class="name_mobile">SINGOLO<span class="headr__name_star">*</span></div>
+                  <div class="stripes1"></div>
+                  <div class="stripes2"></div>
+                  <div class="stripes3"></div>
+                </div>
+                <div class="name_mobile">
+                  SINGOLO<span class="headr__name_star">*</span>
+                </div>
               </div>
               <li class="home">HOME</li>
               <li class="services">SERVICES</li>
@@ -39,11 +43,11 @@
             SINGOLO<span class="headr__name_star">*</span>
           </div>
           <div class="header__nav">
-            <div class="header__nav_links">HOME</div>
+            <div class="header__nav_links"><a href="#home">HOME</a> </div>
             <div class="dot">&#149;</div>
-            <div class="header__nav_links">SERVICES</div>
+            <div class="header__nav_links"><a href="#services">SERVICES</a> </div>
             <div class="dot">&#149;</div>
-            <div class="header__nav_links">PORTFOLIO</div>
+            <div class="header__nav_links"><a href="#portfolio">PORTFOLIO</a>  </div>
             <div class="dot">&#149;</div>
             <div class="header__nav_links">ABOUT</div>
             <div class="dot">&#149;</div>
@@ -52,57 +56,126 @@
         </div>
       </div>
       <div class="border__header"></div>
-
-      <div class="slider__container">
-        <div class="slider">
-          <div class="slider__button_left">
-            <img src="images\slider_button\arrow-left.svg" alt="left" />
-          </div>
-          <div class="phone1__container">
-            <div class="phone">
-              <div class="phone__camera">
-                <div class="phone__camera-eye"></div>
-              </div>
-              <div class="phone__dinamyc"></div>
-              <div class="phone__display">
-                <img
-                  class="img_phone"
-                  src="images\phone-vertical-display.png"
-                  alt="display"
-                />
-              </div>
-              <div class="phone__button">
-                <div class="phone__button-logo"></div>
+      <!-- слайд 1 -->
+      <div class="slider_corousel">
+        <div id="slide_red" class="slider__container">
+          <div class="slider">
+            <div class="phone1__container">
+              <div class="phone">
+                <div class="phone__camera">
+                  <div class="phone__camera-eye"></div>
+                </div>
+                <div class="phone__dinamyc"></div>
+                <div class="phone__display">
+                  <img class="img_phone"
+                    src="images\phone-vertical-display.png"
+                    alt="display"
+                  />
+                </div>
+                <div class="phone__button">
+                  <div class="phone__button-logo"></div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="phone2__container">
-            <div class="phone">
-              <div class="phone__camera">
-                <div class="phone__camera-eye"></div>
-              </div>
-              <div class="phone__dinamyc"></div>
-              <div class="phone__display">
-                <img
-                  class="img_phone"
-                  src="images\phone-horizontal-display.png"
-                  alt="display"
-                />
-              </div>
-              <div class="phone__button">
-                <div class="phone__button-logo"></div>
+            <div class="phone2__container">
+              <div class="phone">
+                <div class="phone__camera">
+                  <div class="phone__camera-eye"></div>
+                </div>
+                <div class="phone__dinamyc"></div>
+                <div class="phone__display">
+                  <img
+                    class="img_phone"
+                    src="images\phone-horizontal-display.png"
+                    alt="display"
+                  />
+                </div>
+                <div class="phone__button">
+                  <div class="phone__button-logo"></div>
+                </div>
               </div>
             </div>
+            
           </div>
-          <div class="slider__button_right">
-            <img src="images\slider_button\arrow-right.svg" alt="right" />
+        </div>
+        <div class="button">
+        <div class="slider__button_left">
+          <img id="btn_left" src="images\slider_button\arrow-left.svg" alt="left" />
+        </div>
+        <div class="slider__button_right">
+          <img id="btn_right" src="images\slider_button\arrow-right.svg" alt="right" />
+        </div>
+      </div>
+
+
+        <div class="border_slider"></div>
+        <!-- слайд2 -->
+        <div id="slide_blue" class="slider__container2">
+          <div class="slider2">
+            <div class="phone3__container">
+              <div class="phone">
+                <div class="phone__camera">
+                  <div class="phone__camera-eye"></div>
+                </div>
+                <div class="phone__dinamyc"></div>
+                <div class="phone__display">
+                  <img
+                    class="img_phone"
+                    src="images\phone-vertical-display (1).png"
+                    alt="display"
+                  />
+                </div>
+                <div class="phone__button">
+                  <div class="phone__button-logo"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone4__container">
+              <div class="phone">
+                <div class="phone__camera">
+                  <div class="phone__camera-eye"></div>
+                </div>
+                <div class="phone__dinamyc"></div>
+                <div class="phone__display">
+                  <img
+                    class="img_phone"
+                    src="images\phone-vertical-display (1).png"
+                    alt="display"
+                  />
+                </div>
+                <div class="phone__button">
+                  <div class="phone__button-logo"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone5__container">
+              <div class="phone">
+                <div class="phone__camera">
+                  <div class="phone__camera-eye"></div>
+                </div>
+                <div class="phone__dinamyc"></div>
+                <div class="phone__display">
+                  <img
+                    class="img_phone"
+                    src="images\phone-vertical-display (1).png"
+                    alt="display"
+                  />
+                </div>
+                <div class="phone__button">
+                  <div class="phone__button-logo"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="border_slider"></div>
+      <!-- конец слайда 2 -->
+
       <!-- меню -->
-      <div class="our__services_contaner">
+      <div id="services" class="our__services_contaner">
         <div class="our__services">
           <h1 class="name__content">Our Services</h1>
           <p class="text__content">
@@ -194,7 +267,7 @@
         <div class="bordrer__our__services"></div>
       </div>
       <!-- Портфолио -->
-      <div class="portfolio__container">
+      <div id="portfolio" class="portfolio__container">
         <div class="portfolio">
           <h1>Portfolio</h1>
           <p>
@@ -268,5 +341,6 @@
         </div>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

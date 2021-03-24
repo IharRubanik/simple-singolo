@@ -1,0 +1,48 @@
+@media (min-width: 1020px) {
+.slider__container2 {
+    width: auto;
+    height: 594px;
+    background-color: #648BF0;
+    margin-top: -662px;
+    opacity: 0;
+    transition: 0.5s;
+
+
+  }
+  .slider2 {
+    margin: auto;
+    width: 1020px;
+    height: 594px;
+    background: #648BF0;
+    display: grid;
+    grid-template-columns: 10% 20% 40% 20% 10%;
+  }
+  
+  .phone3__container {
+    width: auto;
+    height: auto;
+    transform: scale(0.65);
+    opacity: 0.5;
+    position: absolute;
+    margin-left: 257px;
+    margin-top: 152px;
+  }
+  .phone3__container .phone {
+    box-shadow: 25px 25px 0px 0px rgba(77, 56, 56, 0.3);
+  }
+  
+ .phone4__container{
+    transform: scale(1.06);
+    margin-left: 397px;
+    margin-top: 45px;
+    position: absolute;
+    
+ }
+ .phone5__container{
+    transform: scale(0.65);
+    opacity: 0.5;
+    position: absolute;
+    margin-left: 626px;
+    margin-top: 152px;
+ }
+}
