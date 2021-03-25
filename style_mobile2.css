@@ -1,0 +1,47 @@
+@media (max-width: 375px) {
+    .slider__container2 {
+        margin-top: -284px;
+        width: auto;
+        height: 218.38px;
+        transition: 0.5s;
+        background-color: #648BF0;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .slider2 {
+      margin: auto;
+      width: 375px;
+      height: 218.38px;
+      background: #648BF0;
+      display: grid;
+      grid-template-columns: 30% 40% 30%;
+    }
+    
+    .phone3__container {
+      width: auto;
+      height: auto;
+      transform: scale(0.65);
+      opacity: 0.5;
+      position: relative;
+      left: 74px;
+      top: 9px;
+    }
+    .phone3__container .phone {
+      box-shadow: 25px 25px 0px 0px rgba(77, 56, 56, 0.3);
+    }
+    
+    .phone4__container{
+      transform: scale(1.06);
+      position: relative;
+      top: 20px;
+      left: 36px;
+    }
+    
+    .phone5__container {
+      transform: scale(0.65);
+      opacity: 0.5;
+      position: relative;
+      top: 9px;
+      left: -55px;
+    }
+    }

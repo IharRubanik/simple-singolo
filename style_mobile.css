@@ -19,6 +19,22 @@
     width: min-content;
     height: min-content;
   }
+  .three_stripes{
+position: relative;
+z-index: 2;
+
+
+  }
+
+  .main_menu_active{
+    width: min-content;
+    height: min-content;
+    transform: rotate(90deg);
+    margin-top: -9px;
+    margin-left: 9px;
+    z-index: 2;
+
+  }
   .stripes1 {
     width: 25px;
     height: 2.4px;
@@ -57,10 +73,11 @@
     height: 50px;
     overflow: hidden;
     background: #2d303a;
+    z-index: 2;
   }
   .menu_mobile_tabs:hover {
     width: 278px;
-    height: 812px;
+    height: 594px;
   }
   .name_mobile {
     width: 92px;
@@ -128,6 +145,7 @@
     width: auto;
     height: 218.38px;
     background-color: #f06c64;
+    transition: 0.5s;
   }
   .slider {
     margin: auto;
@@ -135,39 +153,45 @@
     height: 218.38px;
     background: #f06c64;
     display: grid;
-    grid-template-columns: 10% 30% 50% 10%;
+    grid-template-columns: 40% 60%;
   }
-  .slider__button_left {
-    margin-top: 98px;
-    margin-left: 10px;
+  .button{
+    width: 768px;
+    position: relative;
+    height: min-content;
+    top: -251px;
+    margin-left: auto;
+    margin-right: auto;
+   
   }
-  .slider__button_left img {
-    width: 14.08px;
-    height: 24.9px;
+  #btn_left {
+    position: relative;
+   left: 9px;
+   top: 121px;
+   z-index: 1;
   }
-  .slider__button_left:hover {
+  #btn_left:hover {
+    cursor: pointer;
+   
+  }
+  #btn_right{
+    position: relative;
+    top: 92px;
+    right: -342px;
+    z-index: 1;
+  }
+  
+  #btn_right:hover {
     cursor: pointer;
   }
-
-  .slider__button_right {
-    margin-top: 98px;
-    margin-right: 10px;
-    text-align: right;
-  }
-  .slider__button_right img {
-    width: 14.08px;
-    height: 24.9px;
-  }
-
-  .slider__button_right:hover {
-    cursor: pointer;
-  }
+  
 
   .phone1__container {
+    position: relative;
     width: auto;
     height: auto;
-    margin-top: 20.01px;
-    margin-left: 3.5px;
+    top: 20px;
+    left: 41px;
   }
   .phone1__container .phone {
     box-shadow: 10px 10px 0px 0px rgba(77, 56, 56, 0.3);
@@ -252,11 +276,12 @@
   }
 
   .phone2__container {
+    position: relative;
     transform: rotate(90deg);
     width: auto;
     height: auto;
-    padding-top: 37.41px;
-    padding-left: 58px;
+    top: 65px;
+    right: 51.41px;
   }
   .phone2__container .phone {
     box-shadow: 10px -10px 0px 0px rgba(77, 56, 56, 0.3);
